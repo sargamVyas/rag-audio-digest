@@ -1,0 +1,5 @@
+requests>=2.28.0         # for download.py
+pydub>=0.25.1            # for audio chunking/pre-processing
+openai-whisper>=20230314 # Whisper STT model
+torch>=1.13.0            # backend for Whisper
+PyYAML>=6.0              # if you load config/config.yaml
